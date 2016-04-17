@@ -21,6 +21,7 @@ Browsing to localhost:8080 from your host will then show a dummy index page with
 ## Cheatsheet
 
 * **Webroot for your application: ** `/var/www`
+* **Location of Preside codebase: ** `/opt/preside`
 * **Tomcat location (config, etc.): ** `/usr/local/tomcat`
 * **Tomcat port: ** `8080`
 * **Lucee server context: ** `/opt/lucee/server`
