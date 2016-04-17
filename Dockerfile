@@ -11,7 +11,3 @@ COPY resources/server.xml /usr/local/tomcat/conf/server.xml
 COPY resources/web.xml /usr/local/tomcat/conf/web.xml
 COPY resources/setenv.sh /usr/local/tomcat/bin/setenv.sh
 COPY resources/lucee-server.xml /opt/lucee/server/lucee-server/context/lucee-server.xml
-ENV PRESIDE_DATASOURCE.HOST presidedb
-ENV PRESIDE_DATASOURCE.DATABASE_NAME preside
-ENV PRESIDE_DATASOURCE.USER preside
-ENV PRESIDE_DATASOURCE.PASSWORD preside
