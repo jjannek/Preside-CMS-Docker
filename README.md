@@ -21,12 +21,13 @@ Browsing to localhost:8080 from your host will then show a dummy index page with
 ## Cheatsheet
 
 * **Webroot for your application: ** `/var/www`
-* **Location of Preside codebase: ** `/opt/preside`
 * **Tomcat location (config, etc.): ** `/usr/local/tomcat`
 * **Tomcat port: ** `8080`
 * **Lucee server context: ** `/opt/lucee/server`
 * **Default Lucee web context config: ** `/opt/lucee/web`
 
-## Creating your own application image
+## Creating your own images
 
-To help get you started creating your own image for your Application, we have created a demo application image over at... (TODO)
+To help you get started with creating your own images for your applications, we have create our own demo repository that makes use of its own Dockerfile and a docker-compose configuration to dockerize a basic Preside-CMS application along with a linked MariaDB container. You can check it out here:
+
+[https://github.com/DominicWatson/Preside-CMS-Docker-Example](https://github.com/DominicWatson/Preside-CMS-Docker-Example)
